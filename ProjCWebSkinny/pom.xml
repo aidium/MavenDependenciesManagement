@@ -24,7 +24,7 @@
 				<configuration>
 					<!-- http://maven.apache.org/plugins/maven-war-plugin/examples/skinny-wars.html -->
 					<!-- <packagingExcludes>WEB-INF/lib/*.jar</packagingExcludes> -->
-					<packagingIncludes>WEB-INF/lib/asm.jar,WEB-INF/lib/jersey-core.jar,**/*.xml,**/*.properties,**/*.class,**/*.png,**/*.css,**/*.js,**/*.jsp</packagingIncludes>
+					<packagingIncludes>WEB-INF/lib/asm-3.1.jar,WEB-INF/lib/jersey-core-1.4.jar,WEB-INF/lib/jersey-server-1.4.jar,**/*.xml,**/*.properties,**/*.class,**/*.png,**/*.css,**/*.js,**/*.jsp</packagingIncludes>
 					<archive>
 						<manifest>
 							<addClasspath>true</addClasspath>
